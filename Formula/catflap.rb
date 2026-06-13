@@ -3,8 +3,8 @@ class Catflap < Formula
 
   desc "Terminal UI for Android logcat with Android Studio-grade filtering"
   homepage "https://github.com/lsbonafe/catflap"
-  url "https://github.com/lsbonafe/catflap/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "adbff55d1cd4eea190072555fd3465ef49bb2a69854c078118985ee8540db0c7"
+  url "https://github.com/lsbonafe/catflap/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "739d840395b41a7f792a3825523f2608882e0863326168878818a8e92bd52a60"
   license "MIT"
 
   livecheck do
@@ -73,6 +73,9 @@ class Catflap < Formula
     <<~EOS
       catflap needs adb on your PATH with a connected device or emulator:
         brew install --cask android-platform-tools
+
+      Optional: install scrcpy to enable screen mirroring from the device menu:
+        brew install scrcpy
     EOS
   end
 
