@@ -1,7 +1,7 @@
 class Catflap < Formula
   include Language::Python::Virtualenv
 
-  desc "Terminal UI for Android logcat with Android Studio-grade filtering"
+  desc "Terminal logcat viewer with boolean filters, ADB actions and screen mirroring"
   homepage "https://github.com/lsbonafe/catflap"
   url "https://github.com/lsbonafe/catflap/archive/refs/tags/v0.3.0.tar.gz"
   sha256 "7095b784581438923f7ab561cf004d197a460045264786fe102fd1f9fc7c1d44"
