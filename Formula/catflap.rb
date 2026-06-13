@@ -73,6 +73,9 @@ class Catflap < Formula
     <<~EOS
       catflap needs adb on your PATH with a connected device or emulator:
         brew install --cask android-platform-tools
+
+      Optional: install scrcpy to enable screen mirroring from the device menu:
+        brew install scrcpy
     EOS
   end
 
