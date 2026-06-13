@@ -7,6 +7,12 @@ class Catflap < Formula
   sha256 "adbff55d1cd4eea190072555fd3465ef49bb2a69854c078118985ee8540db0c7"
   license "MIT"
 
+  livecheck do
+    url :stable
+    strategy :git
+    regex(/^v?(\d+(?:\.\d+)+)$/i)
+  end
+
   depends_on "python@3.13"
 
   resource "linkify-it-py" do
