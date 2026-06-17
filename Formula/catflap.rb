@@ -13,6 +13,13 @@ class Catflap < Formula
     regex(/^v?(\d+(?:\.\d+)+)$/i)
   end
 
+  bottle do
+    root_url "https://github.com/lsbonafe/homebrew-tap/releases/download/catflap-0.4.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "1fbb38ff8b2112bcb58086159b3e20a42cc144d329313671b4d058042dcf04f8"
+    sha256 cellar: :any_skip_relocation, sequoia:      "64532c6094a3b450cc17eaed66dc0fa5f67f8836f591df7df0e9178cd3bfc154"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "1f64b81675a623b97167b02f6fe76e24ec81b24a47497385550e63198bdb621f"
+  end
+
   depends_on "python@3.13"
 
   resource "linkify-it-py" do
