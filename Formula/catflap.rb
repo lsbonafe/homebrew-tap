@@ -3,8 +3,8 @@ class Catflap < Formula
 
   desc "Terminal logcat viewer with boolean filters, ADB actions and screen mirroring"
   homepage "https://github.com/lsbonafe/catflap"
-  url "https://github.com/lsbonafe/catflap/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "7095b784581438923f7ab561cf004d197a460045264786fe102fd1f9fc7c1d44"
+  url "https://github.com/lsbonafe/catflap/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "4a289aa090089ddb575f89d2ea14738bef17619a9cb369624cc31b142b23e7e2"
   license "MIT"
 
   livecheck do
